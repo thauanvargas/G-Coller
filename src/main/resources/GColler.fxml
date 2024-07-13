@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="436.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GColler">
+   <children>
+      <CheckBox fx:id="checkEnabled" layoutX="249.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleButtonEnabled" text="Ativado" />
+      <ImageView fitHeight="282.0" fitWidth="418.0" layoutX="71.0" layoutY="-8.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@anjel-lenda.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="467.0" layoutY="392.0" prefHeight="37.0" prefWidth="137.0" text="AutoColler by Thauan" />
+      <CheckBox fx:id="checkCoords" layoutX="24.0" layoutY="164.0" mnemonicParsing="false" text="Marcar Cordenadas dos Bancos" />
+      <Label fx:id="labelChair1" layoutX="24.0" layoutY="193.0" text="-" />
+      <Label fx:id="labelChair2" layoutX="24.0" layoutY="217.0" text="-" />
+      <Label fx:id="labelChair3" layoutX="24.0" layoutY="239.0" text="-" />
+      <Label fx:id="labelChair4" layoutX="24.0" layoutY="261.0" text="-" />
+      <CheckBox fx:id="checkAutoPlay" layoutX="241.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleButtonAutoPlay" text="Jogar Sozinho" />
+      <CheckBox fx:id="checkBanzaiBug" layoutX="360.0" layoutY="164.0" mnemonicParsing="false" text="Bug do Banzai ARRISCADO!!!" />
+      <Label layoutX="29.0" layoutY="33.0" text="Para os Cria de Corredor feito por" />
+      <Label fx:id="labelRoomInfo" layoutX="29.0" layoutY="91.0" text="Quarto Carregado:" />
+      <Label fx:id="habboName" layoutX="29.0" layoutY="65.0" text="Teu nome:" />
+      <Label fx:id="labelRoomLoaded" layoutX="132.0" layoutY="91.0" text="Não" textFill="RED" />
+      <Label fx:id="labelInfo" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="297.0" prefHeight="20.0" prefWidth="606.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
